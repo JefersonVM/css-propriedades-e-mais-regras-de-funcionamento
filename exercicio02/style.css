@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.grupo-botoes {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.grupo-botoes button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.grupo-botoes button:hover {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.primeiro-botao {
+    border-radius: 10px 0 0 10px;
+}
+
+.ultimo-botao {
+    border-radius: 0 10px 10px 0;
+}
+
+
