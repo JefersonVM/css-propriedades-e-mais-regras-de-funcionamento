@@ -1,0 +1,25 @@
+div span {
+  color: blue;
+  font-weight: bold;
+}
+
+.segunda-div span {
+  color: red;
+  font-weight: bold;
+}
+
+ul + li {
+  color: red;
+}
+
+div + div {
+  background-color: purple;
+}
+
+p ~ span {
+  color: red;
+}
+
+ul > li {
+  color: red;
+}

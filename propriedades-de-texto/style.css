@@ -1,0 +1,25 @@
+.center {
+    text-align: center;
+    text-decoration: underline;
+    color: purple;
+}
+
+.left {
+    text-align: left;
+    text-decoration: line-through;
+    color: white;
+    }
+
+.right {
+    text-align: right;
+    text-decoration: overline;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 26px;
+    font-weight: bold;
+    color: red;
+    line-height: 30px;
+    text-transform: capitalize;
+}

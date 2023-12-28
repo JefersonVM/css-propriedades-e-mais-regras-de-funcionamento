@@ -1,0 +1,18 @@
+h1 {
+    color: blue;
+}
+
+h1::before {
+    content: "Título - ";
+    color: red;
+}
+
+h1::after {
+    content: " - Título";
+    color: red;
+}
+
+input::placeholder {
+    color: red;
+}
+

@@ -1,0 +1,49 @@
+h1:hover {
+    color: red;
+}
+
+button {
+    height: 50px;
+    width: 100px; 
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: aquamarine;
+}
+
+button:active {
+    background-color: blue;
+    color: black;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+input:focus {
+    background-color: purple;
+}
+ strong:first-child {
+    color: red; 
+}
+
+strong:last-child {
+    color: blue;
+}
+
+span:first-child {
+    color: red;
+}
+
+span:last-child {
+    color: blue;
+}
